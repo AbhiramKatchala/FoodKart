@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.foodkart.foodkart.MainActivity">
+
+    <include
+        android:id="@+id/my_toolbar"
+        layout="@layout/app_toolbar" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <WebView
+        android:layout_below="@id/my_toolbar"
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>
