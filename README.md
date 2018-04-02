@@ -1,4 +1,4 @@
-Food kart App
+Food Kart App
 
 App Main Goal
 
